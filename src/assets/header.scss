@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  height: 130px;
+  border-bottom: 1px solid lightgray;
+
+  img {
+    width: 60px;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+}

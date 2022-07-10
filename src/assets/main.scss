@@ -1,0 +1,45 @@
+.main {
+  height: calc(100vh - 131px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+
+  button {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 50px;
+    border-radius: 7px;
+  }
+
+  .inactive {
+    background-color: white;
+  }
+
+  .active {
+    background-color: green;
+  }
+
+  .way {
+    button {
+      width: 120px;
+      height: 100px;
+      font-size: 1.1rem;
+      color: white;
+      font-weight: bold;
+      background-color: red;
+    }
+  }
+
+  .go {
+    button {
+      width: 120px;
+      height: 100px;
+      font-size: 1.1rem;
+      color: white;
+      font-weight: bold;
+      background-color: green;
+    }
+  }
+}
